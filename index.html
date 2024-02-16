@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manish Prajapati | Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/36d2649806.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="favicon-32x32.png" type="image/png">
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <nav>
+                <img src="Photo/logo.png" alt="logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <marquee width="100%" direction="left" height="25px">
+                Welcome to my Portfolio! Hi, I'm Manish Prajapati. I kindly request not to call me anytime. Please send
+                an email, and I will respond to you as soon as possible. Also, feel free to fill out the Contact Us form
+                provided below.
+            </marquee>
+            <div class="header-text">
+                <h1>Hi I'm <br><span>Manish Prajapati</span></h1>
+                <p>Web Developer</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- --------------------------About------------------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Photo/About.JPG">
+                </div>
+                <div class="about-col-1">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Hello, I'm Manish Prajapati, a student studying Computer Engineering in Dombivli, India. I love
+                        creating websites that look good and work smoothly. I'm learning cool coding languages like
+                        Python, HTML, CSS, and JavaScript. My goal? To become a Software Developer who makes awesome
+                        digital stuff. I focus on the front-end, making sure websites have cool effects and animations.
+                        Check out my projects to see what I've been up to! I'm always excited to learn and create new
+                        things. Let's connect and make some tech magic together. Thanks for dropping by—I'm ready for
+                        exciting projects and collaborations!</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>UIDAI Supervisor</span><br>Supervisor of UIDAI at MahaIT</li>
+                            <li><span>Remote Desk</span><br>Technical Solution</li>
+                            <li><span>App Development</span><br>Building Android Apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021-2022</span><br>Supervisor and Operator at Mahanagar Palika</li>
+                            <li><span>2020-2021</span><br>UIDAI Technical Support</li>
+                            <li><span>2020-2021</span><br>Data Entry Operator</li>
+                            <li><span>2019-2020</span><br>Senior Computer Operator</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2025</span><br>B.E Computer Engineering at Shivajirao S. Jondhale College of
+                                Engineering (Appearing)</li>
+                            <li><span>2023</span><br>Cyber Security from Teachnook IIT Bhubaneshwar</li>
+                            <li><span>2021</span><br>12th from Maharashtra State Board</li>
+                            <li><span>2019</span><br>10th from Maharashtra State Board</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------------------------------Services-------------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle myser">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web design involves creating visually appealing and intuitive layouts for websites. Using graphic
+                        elements, color schemes, and user-centric interfaces, designers craft engaging digital
+                        experiences for optimal user interaction.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Web Development</h2>
+                    <p> Web development crafts interactive, user-focused websites. Combining HTML, CSS, and JavaScript,
+                        developers create engaging online experiences with seamless navigation and visually appealing
+                        designs for diverse user interactions.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>CSC Online Work</h2>
+                    <p>
+                        CSC online work involves various tasks, from system administration to programming. Professionals
+                        engage in virtual collaboration, solving technical issues, and maintaining computer systems for
+                        seamless operations.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle myser">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Photo/p1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Netflix Clone</h3>
+                        <p>Craft a responsive and visually stunning Netflix clone using HTML and CSS. Elevate user
+                            experience with an attractive design, seamless navigation, and modern aesthetics for an
+                            immersive streaming platform.</p>
+                        <a href="https://github.com/mr366manish/Netflix-Clone " target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Photo/p2.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Snake Game</h3>
+                        <p>
+                            Embark on retro gaming nostalgia with a Python Snake game. Utilizing the Turtle graphics
+                            library and randomness, create a classic experience where the snake grows, avoiding
+                            obstacles for endless fun.</p>
+                        <a href="https://github.com/mr366manish/snake-game" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Photo/p4.png" alt="">
+                    <div class="layer">
+                        <h3>Spootify Clone</h3>
+                        <p>Craft a stunning Spotify clone with HTML, CSS, and JavaScript. Elevate user experience with
+                            seamless music streaming, personalized playlists, and a sleek, responsive design for an
+                            immersive auditory journey.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ---------------------------------contact----------------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i></i> mr366manish@gmail.com</p>
+                    <!-- <p> <i class="fa-solid fa-phone"></i> +91 0000000000</p> -->
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/manishprajapati366?mibextid=jtWzXIAxfKx1VBOC"
+                            target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/manish-prajapati-454187250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                            target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/https_._manish?igsh=eWhmaWJwYmhkc3By" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/dashboard" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://x.com/Mrmanish366?t=i43-mix8Qartd2SX_DTGjQ&s=09" target="_blank"><i
+                                class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <a class="btn btn2" href="https://drive.google.com/file/d/1IXecqo64Aj-4J7erkgDB8BblqtAp4Agy/view?usp=drivesdk" target="_blank">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="d49ab6d7-3e60-4b84-9acf-7d731a32553e">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Enter your Valid Email" required>
+                        <input type="text" name="Subject" placeholder="Subject" required>
+                        <textarea name="message" rows="6" placeholder=" Mobile Number and Your Messages"
+                            required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div>
+    <button id="scrollToTopBtn" onclick="scrollToTop()"><i class="fa-solid fa-up-long"></i></button>
+    </div>
+    <footer>
+        <div class="copyright">
+            <p>copyright <i id="firs" class="fa-regular fa-copyright"></i> Made with <i class="fa-solid fa-heart"></i>
+                by Manish Prajapati</p>
+        </div>
+        
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
